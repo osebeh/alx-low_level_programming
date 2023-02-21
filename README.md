@@ -1,1 +1,1 @@
-Repository contains projects from C programming
+Repository contains projects for low level programming in C
