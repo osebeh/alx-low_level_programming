@@ -1,10 +1,8 @@
 #include <stdio.h>
 
-/*
- * Program prints _putchar and returns 0
- * main() - primary function
+/**
+ * main() - primary function that prints a string of characters
 */
-
 int main(void)
 {
 /*printing directly without declaring a variable */
