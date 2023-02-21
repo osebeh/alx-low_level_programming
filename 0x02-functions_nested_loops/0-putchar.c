@@ -9,7 +9,7 @@ int main(void)
 {
 /*printing directly without declaring a variable */
 
-printf("_putchar");
+printf("_putchar\n");
 
 return (0);
 }
