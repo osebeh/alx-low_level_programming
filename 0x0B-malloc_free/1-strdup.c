@@ -10,16 +10,18 @@
  */
 char *_strdup(char *str)
 {
-	int strLen, j;
+	int strLen, j, k;
 	char *newString;
 
 	if (str == NULL)
 		return (NULL);
 
 	strLen = 0;
-	while (*str)
+	k=0;
+	while (str[k] != '\0')
 	{
 		strLen++;
+		k++;
 	}
 
 	newString = malloc(sizeof(char) * (strLen + 1));
