@@ -26,11 +26,10 @@ char *_strdup(char *str)
 
 	newString = malloc(sizeof(char) * (strLen + 1));
 
-	if (str == NULL)
-		return (NULL);
-
 	for (i = 0; i <= strLen; i++)
 		newString[i] = str[i];
+
+	
 
 	return (newString);
 }
