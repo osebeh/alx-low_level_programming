@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * _strdup - function returns a pointer to a new string 
+ * _strdup - function returns a pointer to a new string
  * @str: input pointer
  * Return: NULL if str = NULL or a pointer to the duplicated string
  * if success
@@ -17,7 +17,7 @@ char *_strdup(char *str)
 		return (NULL);
 
 	strLen = 0;
-	k=0;
+	k = 0;
 	while (str[k] != '\0')
 	{
 		strLen++;
