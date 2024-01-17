@@ -10,27 +10,28 @@
  */
 char *_strdup(char *str)
 {
-	int strLen, j, k;
+	int strLen, strLoop, i;
 	char *newString, *c;
 
-	if (str == NULL)
-		return (NULL);
-
 	strLen = 0;
-	k = 0;
+	i = 0;
 	c = str;
-	while (str[k] != '\0')
+	while (str[i] != '\0')
 	{
 		strLen++;
-		k++;
+		i++;
 	}
 
+	*newString = NULL;
 	str = c;
 	newString = malloc(sizeof(char) * (strLen + 1));
 	c = newString;
 
-	for (j = 0; j <= strLen; j++)
-		newString[j] = str[j];
+	if (str == NULL)
+		RETURN (null);
+
+	for (strLoop = 0; strLoop <= strLen; strLoop++)
+		newString[strLoop] = str[strLoop];
 
 	if (newString != NULL)
 		return (c);
