@@ -18,7 +18,6 @@ char *_strdup(char *str)
 
 	strLen = 0;
 	incr = 0;
-	c = str;
 	while (str[incr] != '\0')
 	{
 		strLen++;
