@@ -16,12 +16,13 @@ int main(int i, int **j)
 		printf("Error\n");
 		exit(98);
 	}
+
 	else
 	{
 		num1 = atoi(j[1]);
 		num2 = atoi(j[2]);
 		total = num1 * num2;
-		printf("%d\n", result);
+		printf("%d\n", total);
 		return (0);
 	}
 }
