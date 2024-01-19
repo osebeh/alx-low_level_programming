@@ -16,7 +16,6 @@ int main(int i, int **j)
 		printf("Error\n");
 		exit(98);
 	}
-
 	else
 	{
 		num1 = atoi(j[1]);
