@@ -4,10 +4,9 @@
 /**
  * main - function that multiplies two numbers
  * @i: arguments
- * @j: arguments
  * Return: 0
  */
-int main(int i, int **j)
+int main(int i)
 {
 	int num1, num2, total;
 
@@ -23,8 +22,6 @@ int main(int i, int **j)
 	}
 	else
 	{
-		num1 = atoi(j[1]);
-		num2 = atoi(j[2]);
 		total = num1 * num2;
 		_putchar(total);
 		return (0);
