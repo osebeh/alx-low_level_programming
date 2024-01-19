@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * _calloc - allocates memory for an array of nmemb elements of 
+ * _calloc - allocates memory for an array of nmemb elements of
  * size bytes each and returns a pointer to the allocated memory
  * @nmemb: memory spaces to eb allocated
  * @size: size of the memory spaces
