@@ -13,7 +13,12 @@ int main(int i, int **j)
 
 	if (i != 3)
 	{
-		printf("Error\n");
+		_putchar('E');
+		_putchar('r');
+		_putchar('r');
+		_putchar('o');
+		_putchar('r');
+		_putchar('\n');
 		exit(98);
 	}
 	else
@@ -21,7 +26,7 @@ int main(int i, int **j)
 		num1 = atoi(j[1]);
 		num2 = atoi(j[2]);
 		total = num1 * num2;
-		printf("%d\n", total);
+		_putchar(total);
 		return (0);
 	}
 }
